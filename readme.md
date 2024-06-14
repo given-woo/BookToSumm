@@ -2,7 +2,7 @@
 **Summarize your books in a *snap***
 
 
-This python application automatically detects your highlighted texts and summarize. Workflow is shown above.
+This python application automatically detects your highlighted texts and summarize. Workflow is shown below.
 
 
 ![Sumamry](illust/Slide1.jpeg)
