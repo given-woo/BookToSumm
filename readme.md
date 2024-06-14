@@ -1,15 +1,15 @@
 # BookToSumm
 Summarize your books in a *snap*
-![Sumamry](illust/illust/Slide1.jpeg)
+![Sumamry](illust/Slide1.jpeg)
 
 This python application automatically detects your highlighted texts and summarize. Workflow is shown above.
 
 ## Client
-![Client](illust/illust/Slide2.jpeg)
+![Client](illust/Slide2.jpeg)
 Uses OpenCV and Pytessarct to filter out and extracted highlighted text from image.
 
 ## Server
-![Server](illust/illust/Slide3.jpeg)
+![Server](illust/Slide3.jpeg)
 Server uses 'Post-OCR Correction Model' and 'Summarization Model' to effectively deal with text.
 - Post-OCR Correction Model : [jwhong2006/t5-PostOCRAutoCorrecttion](https://huggingface.co/jwhong2006/t5-PostOCRAutoCorrecttion)
 - Summarization Model : [jwhong2006/wikisum](https://huggingface.co/jwhong2006/wikisum)
